@@ -1,0 +1,7 @@
+{
+  "name": "restServices01",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
