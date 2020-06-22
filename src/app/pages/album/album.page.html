@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>album</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content text-center>
+  <ion-card *ngIf="information">
+  	<ion-card-subtitle text-center> Detalles de la medición: </ion-card-subtitle>
+  	<ion-card-title text-center> {{information.title}} </ion-card-title>
+    <ion-card-content>
+      {{ "Medición: " + information.id}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+<!-- <ion-header translucent>
+	<ion-toolbar>
+		<ion-title>Album</ion-title>
+	</ion-toolbar>
+
+	</ion-header>
+	<ion-content fullscreen>
+
+	<ion-list>
+		<ion-list-header>Badges</ion-list-header>
+
+		<ion-item>
+			<ion-label>{{information.title}}</ion-label>
+			<ion-badge color="light" slot="end">{{information.id}}</ion-badge>
+		</ion-item>
+	</ion-list>
+</ion-content> -->
+
+
+
+
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>album</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content> -->
